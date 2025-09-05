@@ -1,7 +1,7 @@
 import pandas as pd
 
 # CSV 파일 불러오기 (파일명 수정하세요)
-df = pd.read_csv("./samples.csv")
+df = pd.read_csv("./src/data/samples.csv")
 
 # 라벨별 개수와 비율 계산
 label_counts = df['label'].value_counts()
